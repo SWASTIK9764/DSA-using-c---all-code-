@@ -10,7 +10,7 @@ int main(){
     else if(n==2){
         cout<<"Tuesday"<<endl;
     }
-    else if(n==3){
+    else if(n==3){               
         cout<<"Wednesday"<<endl;
     }
     else if(n==4){
