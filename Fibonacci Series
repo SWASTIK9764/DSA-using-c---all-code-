@@ -1,0 +1,59 @@
+include <iostream>
+
+2 using namespace std;
+
+3
+
+4- int main() {
+
+5 int n, a = 0, b = 1, c;
+
+6
+
+7
+
+cout << "Enter number of terms:
+
+8
+
+cin >> n;
+
+9
+
+10
+
+cout << "Fibonacci Series: ";
+
+11
+
+12-
+
+for (int i = 1; i <= n; i++)
+
+{
+
+13
+
+14
+
+15
+
+16
+
+cout << a << " ";
+
+c = a + b;
+
+a = b;
+
+b = c;
+
+17
+
+}
+
+18
+
+19
+
+return 0;
